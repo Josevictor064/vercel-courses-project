@@ -1,9 +1,7 @@
-// app/cursos/[id]/page.tsx
-
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getCourseById, getInstructorById } from '@/lib/api';
-import { Chip, Button, Avatar } from '@nextui-org/react';
+import { Button, Avatar } from '@nextui-org/react';
 import Link from 'next/link';
 import Image from 'next/image';
 
